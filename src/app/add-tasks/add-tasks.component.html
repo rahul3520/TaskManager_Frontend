@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="label-control">User Id</label>
+                    <input type="text" name="userID" [(ngModel)]="userID" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="label-control">Task Id</label>
+                    <input type="number" name="taskID" [(ngModel)]="taskID" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="label-control">Task title</label>
+                    <input type="text" name="taskTitle" [(ngModel)]="taskTitle" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="label-control">Task Completion Date</label>
+                    <input type="date" name="taskCompletionDate" [(ngModel)]="taskCompletionDate" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="label-control">Task Completion Status</label>
+                    <input type="text" name="taskCompletionStatus" [(ngModel)]="taskCompletionStatus" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button (click)="addTask()" class="btn btn-success">Add Task</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
